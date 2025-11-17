@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const toggles = document.querySelectorAll(".scandal-toggle");
+  const toggles = document.querySelectorAll(".skanduote-toggle");
 
   toggles.forEach((button) => {
     button.addEventListener("click", () => {
