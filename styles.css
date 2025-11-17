@@ -168,11 +168,11 @@ body {
 }
 
 /* Collapsing behavior */
-.skanduote-content {
+.scandal-content {
   display: none;
 }
 
-.skanduote-content.open {
+.scandal-content.open {
   display: block;
 }
 
