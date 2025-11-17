@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Budėno skanduotės</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Budėno skanduotės" />
+
+    <!-- Optional icons if you add them to your repo -->
+    <link rel="icon" href="/icon-light-32x32.png" media="(prefers-color-scheme: light)" />
+    <link rel="icon" href="/icon-dark-32x32.png" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-icon.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <!-- Header -->
+      <header class="hero">
+        <div class="hero-blur hero-blur-left"></div>
+        <div class="hero-blur hero-blur-right"></div>
+
+        <div class="hero-inner">
+          <h1>Budėno skanduotės</h1>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <section class="content">
+        <div class="cards">
+
+          <!-- Card 1 -->
+          <article class="card">
+            <button class="card-header scandal-toggle" data-target="scandal-1">
+              <div class="card-title-wrap">
+                <h2 class="card-title">Test</h2>
+              </div>
+
+              <span class="chevron">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+
+            <div id="scandal-1" class="card-body scandal-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card">
+            <button class="card-header scandal-toggle" data-target="scandal-2">
+              <div class="card-title-wrap">
+                <h2 class="card-title">Test 2</h2>
+              </div>
+
+              <span class="chevron">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+
+            <div id="scandal-2" class="card-body scandal-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna
+                mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient
+                montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur.
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+              </p>
+            </div>
+          </article>
+
+          <!-- You can add more cards by copying the same structure -->
+
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
